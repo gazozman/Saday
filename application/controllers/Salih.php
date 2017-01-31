@@ -22,7 +22,7 @@ class Salih extends CI_Controller
         $this->load->view('salih_ekle_view');
     }
 
-     function detay($id) { 
+     function detay($id) { //o yea man
         $this->load->model('salih_model_1');
 		$data['veri']=$this->salih_model_1->sadece_birini_al($id);
         $this->load->view('salih_detay_view',$data);
