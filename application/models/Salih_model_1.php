@@ -7,6 +7,7 @@ class Salih_model_1 extends CI_Model
      {
          parent::__construct();
          $this->load->database();//database bağlantısı yapıyoruz.
+         $this->load->library('session');
      }
 
     function hepsini_al()
@@ -20,7 +21,8 @@ class Salih_model_1 extends CI_Model
         $data = array(
        'adi'=>$this->input->post('dersin_adi'),
        'saati'=>$this->input->post('dersin_saati'),
-       'hocasi'=>$this->input->post('dersin_hocasi')
+       'hocasi'=>$this->input->post('dersin_hocasi'),
+       'resimlinki'=>$this->input->post('dersin_resmi')
         );
         $this->db->insert('dersler',$data);
     }
