@@ -9,7 +9,7 @@
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4"><?php echo $dersler->adi; ?><i class="material-icons right">more_vert</i></span>
                         <p> <a href="<?php echo base_url();?>salih/detay/<?php echo $dersler->id; ?>">Detay</a></p>
-                        <p><a href="<?php echo base_url(); ?>salih/veriSil/<?php echo $dersler->id;?>">Sil</a></p>
+                        <p> <a href="<?php echo base_url(); ?>salih/veriSil/<?php echo $dersler->id;?>">Sil</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
