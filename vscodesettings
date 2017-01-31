@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Points to the php executable.
+    "php.validate.enable": true,
+    "php.executablePath": "c:\\php\\php.exe",
+    "php.validate.run": "onType",
+    "files.autoSave": "off",
+    "workbench.statusBar.visible": true,
+    "window.openFilesInNewWindow": false,
+    "editor.renderIndentGuides": true
+}
